@@ -1,0 +1,14 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "second project of backend development",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
