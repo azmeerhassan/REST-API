@@ -1,4 +1,5 @@
 const express = require('express')
+const User = require('./MOCK_DATA.json')
 
 const app = express()
 
