@@ -1,8 +1,6 @@
 const express = require('express')
 const users = require('./MOCK_DATA.json')
-
 const app = express()
-
 const PORT = 8000
 
 //Routes
@@ -30,9 +28,11 @@ app
   })
   .patch((req, res) => {
     return res.json({ status: 'pending' });
+  })
+  .delete((req, res) => {
+    return res.json({ status: 'pending deletion' });
   });
 
-// This must be OUTSIDE the .route chain
 app.post('/api/users', (req, res) => {
   return res.json({ status: 'pending' });
 });
